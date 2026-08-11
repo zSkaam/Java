@@ -1,0 +1,20 @@
+
+class codigo{ 
+    String nome;
+    String nivel;
+
+    void apresentar(){
+
+        System.out.println("A linguagem escolhida foi " + nome + " nível de difculdade:" + nivel);
+    }
+}
+public class Main { 
+    public static void main(String[] args) {
+        codigo lingua1 = new codigo();
+        lingua1.nome = "Java";
+        lingua1.nivel = "Difícil";
+        
+        lingua1.apresentar();
+    }
+}
+

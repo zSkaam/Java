@@ -2,19 +2,27 @@
 class codigo{ 
     String nome;
     String nivel;
+    String criacao;
+    String estilo;
+    String tempo;
+    String criador;
+    void primeirop(){
 
-    void apresentar(){
-
-        System.out.println("A linguagem escolhida foi " + nome + " nível de difculdade:" + nivel);
+        System.out.println("A linguagem escolhida foi: " + nome + "\nNível de dificuldade: " + nivel + "\nA linguagem foi lançada em: " + criacao);
+        System.out.println2( + nome + " é: " + estilo + " por ser " + nivel + " vai demorar: " + tempo + " A criação foi em: " + criacao + " por " + criador +);
     }
 }
-public class Main { 
+public class main { 
     public static void main(String[] args) {
         codigo lingua1 = new codigo();
+        codigo lingua2 = new codigo();
         lingua1.nome = "Java";
         lingua1.nivel = "Difícil";
-        
-        lingua1.apresentar();
+        lingua1.criacao = "23/05/1995";
+        lingua1.estilo = "Verbosa";
+        lingua1.tempo = "2 anos para aprender";
+        lingua1.criador = "James Gosling";
+        lingua1.primeirop();
     }
 }
 

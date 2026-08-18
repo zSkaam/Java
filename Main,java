@@ -1,4 +1,3 @@
-
 class codigo{ 
     String nome;
     String nivel;

@@ -9,7 +9,7 @@ class codigo{
     void primeirop(){
 
         System.out.println("A linguagem escolhida foi: " + nome + "\nNível de dificuldade: " + nivel + "\nA linguagem foi lançada em: " + criacao);
-        System.out.println2( + nome + " é: " + estilo + " por ser " + nivel + " vai demorar: " + tempo + " A criação foi em: " + criacao + " por " + criador +);
+        System.out.println( nome + " é " + estilo + " por ser " + nivel + "\n vai demorar " + tempo + "\n A criação foi em: " + criacao + " por " + criador);
     }
 }
 public class main { 

@@ -15,7 +15,6 @@ class codigo{
 public class main { 
     public static void main(String[] args) {
         codigo lingua1 = new codigo();
-        codigo lingua2 = new codigo();
         lingua1.nome = "Java";
         lingua1.nivel = "Difícil";
         lingua1.criacao = "23/05/1995";

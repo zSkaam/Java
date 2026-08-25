@@ -68,6 +68,107 @@
 //        aluno1.nome = "Daniel";
 //        aluno1.idade = 22;
 //        
+
+// public class Main {
+      
+//       public static void main(String[]args) { 
+//       boolean logincorreto = true;
+//       boolean senhacorreta = true;
+//       boolean acesso = logincorreto && senhacorreta;
+//       System.out.println("Login: " + logincorreto);
+//       System.out.println("Senha: "  + senhacorreta);
+//       System.out.println("O acesso é " + acesso);
+//   }
+// }
+
+
+//   public class Main {
+      
+//       public static void main(String[]args) { 
+//       int idade = 20; 
+//       String situacao = idade >= 18 ? "Maior de idade" : "Menor de idade";
+//       System.out.println(situacao);
+//   }
+// }
+  
+//   public class Main { 
+//       public static void main(String[]args) {
+//          int idade = 23;
+//          if (idade >= 18) {
+//              System.out.println("Maior de idade");
+//          }
+//              else {
+//                 System.out.println("Menor de idade");
+         
+//                 }
+//              }
+          
+//       }
+
+// public class Main {
+  
+//       public static void main(String[]args) { 
+//       int dia = 7;
+//       switch (dia) {
+//           case 1:
+//             System.out.println("Segunda-feira");
+//             break;
+//          case 2:
+//             System.out.println("Terça-feira");
+//             break;
+//          case 3:
+//             System.out.println("Quarta-feira");
+//             break;
+//         case 4:
+//             System.out.println("Quinta-feira");
+//             break;
+//         case 5:
+//             System.out.println("Sexta-feira");
+//             break;
+//         case 6:
+//             System.out.println("Sábado");
+//             break;
+//       case 7:
+//             System.out.println("Domingo");
+//             break;
+//       default:
+//             System.out.println("Dia não cadastrado");
+//     }
+//   }
+// }
+public class Main {
+  
+      public static void main(String[]args) { 
+      double media = 80;
+      String graduacao;
+      
+      if (media >= 70){
+          graduacao = "A";
+      } else if (media < 70 && media >= 50) {
+          graduacao = "B";
+      } else {
+          graduacao = "C";
+      }  
+      
+      System.out.println("Média: " + media);
+      
+      switch (graduacao) {
+        case "A":
+            System.out.println("Aprovado");
+            break;
+        case "B":
+            System.out.println("Recuperação");
+            break;
+        case "C":
+            System.out.println("Reprvoado");
+            break;
+        default:
+            System.out.println("Erro!!");
+            
+      }
+     }
+   }
+  
 //        aluno1.apresentar();
   //  }
 //}

@@ -8,29 +8,37 @@
   //  }
 //}
 
-class codigo{ 
-    String nome;
-    String nivel;
-    String criacao;
-    String estilo;
-    String tempo;
-    String criador;
-    void primeirop(){
+//class codigo{ 
+//    String nome;
+//    String nivel;
+//    String criacao;
+//    String estilo;
+//    String tempo;
+//    String criador;
+//    void primeirop(){
 
-        System.out.println("A linguagem escolhida foi: " + nome + "\nNível de dificuldade: " + nivel + "\nA linguagem foi lançada em: " + criacao);
-        System.out.println( nome + " é " + estilo + " por ser " + nivel + "\n vai demorar " + tempo + "\n A criação foi em: " + criacao + " por " + criador);
-    }
-}
-public class main { 
-    public static void main(String[] args) {
-        codigo lingua1 = new codigo();
-        lingua1.nome = "Java";
-        lingua1.nivel = "Difícil";
-        lingua1.criacao = "23/05/1995";
-        lingua1.estilo = "Verbosa";
-        lingua1.tempo = "2 anos para aprender";
-        lingua1.criador = "James Gosling";
-        lingua1.primeirop();
-    }
-}
-
+//        System.out.println("A linguagem escolhida foi: " + nome + "\nNível de dificuldade: " + nivel + "\nA linguagem foi lançada em: " + criacao);
+//        System.out.println( nome + " é " + estilo + " por ser " + nivel + "\n vai demorar " + tempo + "\n A criação foi em: " + criacao + " por " + criador);
+//    }
+//}
+//public class main { 
+//    public static void main(String[] args) {
+//        codigo lingua1 = new codigo();
+//        lingua1.nome = "Java";
+//        lingua1.nivel = "Difícil";
+//        lingua1.criacao = "23/05/1995";
+//        lingua1.estilo = "Verbosa";
+//        lingua1.tempo = "2 anos para aprender";
+//        lingua1.criador = "James Gosling";
+//        lingua1.primeirop();
+//    }
+//}
+//public class Main { 
+//    public static void main(String[] args) {
+//        Aluno aluno1 = new Aluno();
+//        aluno1.nome = "Daniel";
+//        aluno1.idade = 22;
+//        
+//        aluno1.apresentar();
+  //  }
+//}

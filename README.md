@@ -1,3 +1,3 @@
 <div style="text-align: center;">
-<p>Estudos usando a técnologia JAVA</p>
+<h1>Estudos usando a técnologia JAVA</h1>
 </div>

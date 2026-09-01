@@ -50,6 +50,7 @@
 //        System.out.println( nome + " é " + estilo + " por ser " + nivel + "\n vai demorar " + tempo + "\n A criação foi em: " + criacao + " por " + criador);
 //    }
 //}
+//------------------------------------------------------------------
 //public class main { 
 //    public static void main(String[] args) {
 //        codigo lingua1 = new codigo();
@@ -62,13 +63,14 @@
 //        lingua1.primeirop();
 //    }
 //}
+//------------------------------------------------------------------
 //public class Main { 
 //    public static void main(String[] args) {
 //        Aluno aluno1 = new Aluno();
 //        aluno1.nome = "Daniel";
 //        aluno1.idade = 22;
 //        
-
+//------------------------------------------------------------------
 // public class Main {
       
 //       public static void main(String[]args) { 
@@ -81,7 +83,7 @@
 //   }
 // }
 
-
+//------------------------------------------------------------------
 //   public class Main {
       
 //       public static void main(String[]args) { 
@@ -90,7 +92,7 @@
 //       System.out.println(situacao);
 //   }
 // }
-  
+//------------------------------------------------------------------  
 //   public class Main { 
 //       public static void main(String[]args) {
 //          int idade = 23;
@@ -104,7 +106,7 @@
 //              }
           
 //       }
-
+//------------------------------------------------------------------
 // public class Main {
   
 //       public static void main(String[]args) { 
@@ -136,39 +138,99 @@
 //     }
 //   }
 // }
+//------------------------------------------------------------------
 public class Main {
   
-      public static void main(String[]args) { 
-      double media = 80;
-      String graduacao;
+//       public static void main(String[]args) { 
+//       double media = 80;
+//       String graduacao;
       
-      if (media >= 70){
-          graduacao = "A";
-      } else if (media < 70 && media >= 50) {
-          graduacao = "B";
-      } else {
-          graduacao = "C";
-      }  
+//       if (media >= 70){
+//           graduacao = "A";
+//       } else if (media < 70 && media >= 50) {
+//           graduacao = "B";
+//       } else {
+//           graduacao = "C";
+//       }  
       
-      System.out.println("Média: " + media);
+//       System.out.println("Média: " + media);
       
-      switch (graduacao) {
-        case "A":
-            System.out.println("Aprovado");
-            break;
-        case "B":
-            System.out.println("Recuperação");
-            break;
-        case "C":
-            System.out.println("Reprvoado");
-            break;
-        default:
-            System.out.println("Erro!!");
+//       switch (graduacao) {
+//         case "A":
+//             System.out.println("Aprovado");
+//             break;
+//         case "B":
+//             System.out.println("Recuperação");
+//             break;
+//         case "C":
+//             System.out.println("Reprvoado");
+//             break;
+//         default:
+//             System.out.println("Erro!!");
             
-      }
-     }
-   }
+//       }
+//      }
+//   }
   
 //        aluno1.apresentar();
   //  }
 //}
+//------------------------------------------------------------------
+//  public class Main
+// {
+// 	public static void main(String[] args) {
+// 	    String linguagem = "JAVA";
+// 	    String linguagemMinuscula = linguagem.toLowerCase();
+// 	    String nome = "Daniel";
+// 	    String nomeMaisculo = nome.toUpperCase();
+// 	    System.out.println(nomeMaisculo);
+// 		System.out.println(linguagemMinuscula);
+// 	}
+// }
+// 
+//------------------------------------------------------------------
+// public class Main{
+//     public static void main(String[]args){
+//     String email = "usuario@dominio.com";
+//     int indiceArroba = email.indexOf("@");
+//     System.out.println(indiceArroba);
+//     }
+// }
+//------------------------------------------------------------------
+// import java.time.LocalDate;
+// public class Main{
+//     public static void main(String[]args){
+//      LocalDate dataAtual = LocalDate.now();
+        
+//     System.out.println("Data atual:"+ dataAtual);
+//     }
+// }
+// import java.time.LocalDate;
+//------------------------------------------------------------------
+// public class Main{
+//     public static void main(String[]args){
+//         LocalDate dataNascimento = LocalDate.of(1987, 9, 3);
+//     System.out.println("Data de Nascimento:" + dataNascimento);
+        
+//     }
+// }
+//------------------------------------------------------------------
+// import java.time.LocalDate;
+// import java.time.DayOfWeek;
+
+// public class Main{
+//     public static void main(String[]args){
+//         LocalDate dataAtual = LocalDate.now();
+//     System.out.println("Data Atual:" + dataAtual);
+//         int dia = dataAtual.getDayOfMonth();
+//     System.out.println("Dia do mês:"+ dia);
+    
+//         int mes = dataAtual.getMonthValue();
+//     System.out.println("Mês(numérico);"+mes);    
+//         int ano = dataAtual.getYear();
+//     System.out.println("Ano:"+ano);
+    
+//     DayOfWeek diaDaSemana = dataAtual.getDayOfWeek();
+//     System.out.println("Dia da semana:" + diaDaSemana);
+//  }
+// }

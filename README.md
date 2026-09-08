@@ -1,2 +1,2 @@
-<h1>Estudos usando a técnologia JAVA</h>
+<h1>Estudos com JAVA</h>
 

@@ -1,26 +1,26 @@
-public class ContadorSemSincronizacao {
-    static class Contador {
-        private int total;
+public class CriacaoThreads {
+    static class Trabalhadora extends Thread {
+        Trabalhadora(String nome) { super (nome); }
         
-        void incrimentar() { total++;}
-        int getTotal(){ return total;}
+        @Override
+        public void run () {
+            System.out.println("Thread: " + getName());
+        }
     }
-    public static void main (String [] args)
-        throws InterruptedException {
-            Contador contador = new Contador();
-            Runnable tarefa = () -> {
-                for (int i = 0; i < 100_000; i++){
-                    contador.incrimentar();
+    static class Tarefa implements Runnable {
+        @Override
+        public void run() {
+            System.out.println("Runnable: " + Thread.currentThread().getName());
+        }
+    }
+        public static void main(String[] args)
+            throws InterruptedException {
+                Thread a = new Trabalhadora("heranca");
+                Thread b = new Thread(new Tarefa(), "composição");
+             a.start();
+             b.start();
+             a.join();
+             b.join();
+             System.out.println("Duas tarefas concluidas.");
             }
-        };
-        Thread a = new Thread(tarefa,"A");
-        Thread b = new Thread(tarefa, "B");
-        a.start();
-        b.start();
-        a.join();
-        b.join();
-        System.out.println("Esperando: 200000");
-        System.out.println("Obito: " + contador.getTotal());
-        System.out.println("O resultado pode coincidir com o esperado.");
     }
-}

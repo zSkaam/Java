@@ -20,7 +20,7 @@ public class ContadorSemSincronizacao {
         a.join();
         b.join();
         System.out.println("Esperando: 200000");
-        System.out.println("Obito: " + contador.getTotal());
+        System.out.println("Obtido: " + contador.getTotal());
         System.out.println("O resultado pode coincidir com o esperado.");
     }
 }
